@@ -16,6 +16,9 @@
 <!--| Causal Discovery with Reinforcement Learning | ICLR20 | Use RL as a search strategy to search for the DAG with the best scoring. [ Actor-critic algorithm] | -->
 
 not RL
+
+| Paper Title                                     | Conference             | Method            |Problem    |
+| :-----------------------------------------------|------------ | ------------------------ |-------------------|
 | Learning To Solve Circuit-SAT: An Unsupervised Differentiable Approach | ICLR19 | do end-to-end differentiable training that mimics RL | SAT |
 | Exact Combinatorial Optimization with Graph Convolutional Neural Networks | NIPS19 | Propose a GCN model for learning branch-and-bound variable selection prolicies with the varibale constraint biparitite graph representation of mixed-interger linear programs. [ Imitation learning(strong branching expert rule) ] | MILP |
 | Combinatorial optimization with graph convolutional networks and guided tree search | NIPS18 | | |
