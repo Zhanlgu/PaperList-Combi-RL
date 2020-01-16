@@ -2,7 +2,6 @@
 
 | Paper Title                                     | Conference             | Method            |Problem    |
 | :-----------------------------------------------|------------ | ------------------------ |-------------------|
-<!--| Causal Discovery with Reinforcement Learning | ICLR20 | Use RL as a search strategy to search for the DAG with the best scoring. [ Actor-critic algorithm] | -->
 | A Learning-based Iterative Method for Solving Vehicle Routing Problems | ICLR20 | Start from a random solution and learn to iteratively refine the solution with an improvement operator, selected by a RL based controller. | Capacitiated VRP |
 | Differentiation of Blackbox Combinatorial Solvers | ICLR20 | Implement an efficient backward pass through blackbox implementations of combinatorial solvers with linear objective functions | TSP,  min-cost perfect matching problem, shortest path problem |
 | Learning to Perform Local Rewriting for Combinatorial Optimization| NIPS19 | Learn a policy to pick heuristics and rewrite the local components of the current solution to iteratively improve it until convergence. [ Actor-critic algorithm ] | expression simplification, online job scheduling, VRP | 
@@ -14,3 +13,4 @@
 | Reinforcement Learning for Solving the Vehicle Routing Problem | NIPS18 | Learn a policy to find near-optimal solutions by observing the reward signals and following feasibility rules. [ Stochastic policy gradient ] | VRP |
 | Learning Combinatorial Optimization Algorithms over Graphs | NIPS17 | Struct2vec is used to determined the action. The learned greedy policy behaves like a meta-algorithm to increamentally construct a solution. [ Q-learning ] | Minimum vertex cover, maximum cut, TSP |
 | Deep Learning as a Mixed Convex-Combinatorial Optimization Problem | ICLR18 | ||
+<!--| Causal Discovery with Reinforcement Learning | ICLR20 | Use RL as a search strategy to search for the DAG with the best scoring. [ Actor-critic algorithm] | -->
